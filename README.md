@@ -1,11 +1,6 @@
 # CRUD Burger App
 
 This is a restaurant app that lets users add the names of burgers and eat them!    
-
-[Live](https://intense-island-52740.herokuapp.com)
-
-![gif](/public/assets/images/demo.gif)
-
 ## Functionality
 
 - The app reads the database to get all the available burgers in the burger table in order to display them on the page. 
