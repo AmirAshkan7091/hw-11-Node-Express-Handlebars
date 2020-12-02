@@ -1,0 +1,101 @@
+/* global
+---------------------------------------- */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#613945;
+  background-size: cover;
+  background-position: 50%;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+/* title
+---------------------------------------- */
+.my-container{
+  margin: 10px auto;
+}
+h1 {
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 700;
+  color:rgba(0, 0, 0, 0.9);
+  text-align: center;
+  font-size: 45px;
+  line-height: 0.8em;
+}
+
+
+.icon-burger {
+  margin: 0 auto;
+  display: block;
+  width: 35px;
+}
+
+h3 {
+  font-size: 20px;
+  color:black;
+}
+#burger-name:placeholder {
+  color: rgb(165, 165, 165);
+}
+#burger-name:focus::placeholder {
+  color: transparent;
+}
+.add-btn {
+  background: black;
+  color: white;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 57px;
+  }
+  .icon-burger {
+    width: 40px;
+  }
+}
+
+/* burger list
+---------------------------------------- */
+h4 {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  padding: 10px;
+  font-size: 19px;
+}
+
+.wait-container, .devoured-container {
+  padding: 0;
+}
+.wait-container ul, .devoured-container ul {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0 0 10px 0;
+  min-height: 40px;
+}
+li {
+  list-style: none;
+  padding: 3px 0 0 0;
+}
+
+.devoured-btn, .delete-btn {
+  border: 1px solid black;
+  background: none;
+  margin: 2px;
+  padding: 0px 7px;
+}
+.devoured-btn:hover {
+  border: 1px solid rgba(241, 241, 42, 1);
+  background: rgba(241, 241, 42, 1);
+  color: black;
+}
+.delete-btn:hover {
+  border: 1px solid rgba(255, 124, 41, 1);
+  background: rgba(255, 124, 41, 1);
+  color: black;
+}
